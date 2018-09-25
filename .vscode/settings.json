@@ -1,0 +1,5 @@
+{
+  "editor.wordWrapColumn": 120,
+  "editor.formatOnSave": false,
+  "prettier.stylelintIntegration": false
+}
