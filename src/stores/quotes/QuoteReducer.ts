@@ -22,6 +22,12 @@ export default class QuoteReducer {
     }
 
     private static _addQuote(state: IQuoteReducerState, action: IAction<string>): IQuoteReducerState {
+        if (!action.payload) {
+            return {
+                ...state,
+            };
+        }
+
         const quote: IQuote = {
             id: randomWordString(true),
             quote: action.payload,
@@ -37,6 +43,12 @@ export default class QuoteReducer {
     }
 
     private static _removeQuote(state: IQuoteReducerState, action: IAction<string>): IQuoteReducerState {
+        if (!action.payload) {
+            return {
+                ...state
+            };
+        }
+
         const quoteId: string = action.payload;
 
         return {

@@ -4,10 +4,11 @@ import {Provider} from 'react-redux';
 import {applyMiddleware, createStore} from 'redux';
 import {composeWithDevTools} from 'redux-devtools-extension/developmentOnly';
 import createSagaMiddleware from 'redux-saga';
-import App from './app/App';
+import App from './app';
 import Reducer from './stores/rootReducer';
 import rootSaga from './stores/rootSaga';
-import './index.css';
+
+import './index.scss';
 
 // create the saga middleware
 const sagaMiddleware = createSagaMiddleware();
@@ -29,7 +30,7 @@ ReactDOM.render(
 );
 
 if ((module as any).hot && process.env.NODE_ENV !== 'production') {
-  (module as any).hot.accept('./app/App', () => {
+  (module as any).hot.accept('./app', () => {
       ReactDOM.render(
           <Provider store={store}>
               <App />
