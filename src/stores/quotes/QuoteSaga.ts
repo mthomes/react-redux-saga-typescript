@@ -5,7 +5,7 @@ import {get} from 'lodash-es';
 import QuoteService from './QuoteService';
 
 export default class QuoteSaga {
-    public static* getQuote(action: IAction<void> = null) {
+    public static* getQuote(action: IAction<void>) {
         try {
             const response: any = yield call(QuoteService.getNorris);
             const joke: string = get(response, 'data.value.joke');
