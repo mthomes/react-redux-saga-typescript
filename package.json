@@ -12,7 +12,7 @@
     "react-scripts-ts": "3.1.0",
     "redux": "4.0.0",
     "redux-saga": "0.16.0",
-    "reset-css": "^4.0.1"
+    "reset-css": "4.0.1"
   },
   "scripts": {
     "clean": "rimraf 'build/**/*'",
@@ -25,20 +25,22 @@
     "@types/axios": "0.14.0",
     "@types/jest": "23.3.2",
     "@types/lodash-es": "4.17.1",
-    "@types/node": "10.11.3",
+    "@types/node": "10.11.0",
     "@types/react": "16.4.14",
     "@types/react-dom": "16.0.8",
     "@types/react-redux": "6.0.9",
     "@types/react-router-dom": "4.3.1",
-    "node-sass": "^4.9.3",
+    "@types/webpack": "4.4.13",
+    "@types/webpack-env": "1.13.6",
+    "node-sass": "4.9.3",
     "react-app-rewire-css-modules": "codebandits/react-app-rewire-css-modules",
     "react-app-rewired": "1.6.2",
     "redux-devtools-extension": "2.13.5",
     "rimraf": "2.6.2",
-    "sass-loader": "^7.1.0",
-    "stylelint": "^9.6.0",
-    "stylelint-config-standard": "^18.2.0",
-    "stylelint-order": "^1.0.0",
-    "typescript": "3.1.1"
+    "sass-loader": "7.1.0",
+    "stylelint": "9.6.0",
+    "stylelint-config-standard": "18.2.0",
+    "stylelint-order": "1.0.0",
+    "typescript": "3.0.3"
   }
 }

@@ -19,7 +19,8 @@
     "removeComments": false,
     "sourceMap": true,
     "strictNullChecks": false,
-    "suppressImplicitAnyIndexErrors": true
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
