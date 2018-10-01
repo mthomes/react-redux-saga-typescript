@@ -1,6 +1,7 @@
 {
   "docs": "https://www.typescriptlang.org/docs/handbook/compiler-options.html",
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "es5",
     "module": "esnext",
     "moduleResolution": "node",

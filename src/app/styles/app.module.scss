@@ -4,15 +4,8 @@
 .button {
     @include font-size(16);
 
-    appearance: none;
     background-color: $BRAND_COLOR;
-    border: 0;
-    border-radius: 0;
     color: $BACKGROUND_COLOR;
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: normal;
-    margin: 0;
     padding: 3px 5px;
 }
 
